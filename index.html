@@ -1,62 +1,113 @@
+
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>سایت شخصی نوری</title>
-    <style>
-        body {
-            font-family: Tahoma, Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
-            color: #333;
-            text-align: center;
-            /* راست‌چین و وسط‌چین کردن کل صفحه */
-        }
-
-        ol {
-            display: inline-block;
-            text-align: right;
-        }
-
-        a {
-            display: inline-block;
-            margin: 10px;
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background 0.3s;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Summer T-Shirt</title>
+  <link rel="stylesheet" href="stelyl.css" />
 </head>
 
 <body>
-    <header>
-        <h1>به سایت شخصی من خوش آمدید</h1>
-        <p>سعید نوری هستم<br> این اولین سایت منه و قراره آموزش ببینم و فرانت‌کار شم.</p>
-    </header>
 
-    <main>
-        <h2>مهارت‌های من</h2>
-        <ol>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JAVASCRIPT</li>
-            <li>VS CODE</li>
-            <li>REACT</li>
-            <li>ANGULAR</li>
-        </ol>
-    </main>
+  <header>
+    <nav>
+      <ul class="list">
+        <li><a href="#">Main Menu</a></li>
 
-    <footer>
-        <p>ارتباط با من:</p>
-        <a href="tel:+989938105007">تماس با من</a>
-        <a href="mailto:saeednooriyt@gmail.com">ارسال ایمیل</a>
-    </footer>
+        <li>
+          <svg class="icon" viewBox="0 0 80.593 122.88">
+            <polygon points="0,0 30.82,0 80.593,61.44 30.82,122.88 0,122.88 49.772,61.44 0,0" />
+          </svg>
+        </li>
+
+        <li><a href="#">Shopping Cart</a></li>
+
+        <li>
+          <svg class="icon" viewBox="0 0 80.593 122.88">
+            <polygon points="0,0 30.82,0 80.593,61.44 30.82,122.88 0,122.88 49.772,61.44 0,0" />
+          </svg>
+        </li>
+
+        <li><a href="#">...</a></li>
+
+        <li>
+          <svg class="icon" viewBox="0 0 80.593 122.88">
+            <polygon points="0,0 30.82,0 80.593,61.44 30.82,122.88 0,122.88 49.772,61.44 0,0" />
+          </svg>
+        </li>
+
+        <li><a href="#">Place Order</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="cart">
+
+      <!-- Product Image -->
+      <div class="image">
+        <img
+          src="Black and Orange T-Shirt Detail Collage.png"
+          alt="Summer T-Shirt"
+        />
+      </div>
+
+      <!-- Product Details -->
+      <div class="details">
+
+        <h1>Summer T-Shirt</h1>
+
+        <div class="product-rating">
+          <p>★★★★★ 5.0</p>
+        </div>
+
+        <p>
+          A lightweight, breathable summer T-shirt
+          designed for all-day comfort and effortless style.
+        </p>
+
+        <strong>$120</strong>
+
+        <!-- Size Selector -->
+        <h3>Size Selector</h3>
+
+        <div class="size-selector">
+          <button type="button">S</button>
+          <button type="button">L</button>
+          <button type="button">XL</button>
+          <button type="button">XXL</button>
+        </div>
+
+        <!-- Color Selector -->
+        <h3>Color Selector</h3>
+
+        <div class="color-selector">
+          <button type="button">Red</button>
+          <button type="button">Blue</button>
+          <button type="button">Black</button>
+        </div>
+
+        <!-- Quantity Selector -->
+        <h3>Quantity</h3>
+
+        <div class="quantity-selector">
+          <button type="button">-</button>
+          <span>1</span>
+          <button type="button">+</button>
+        </div>
+
+        <!-- Add to Cart -->
+        <button type="button" class="add-to-cart">
+          Add to Cart
+        </button>
+
+      </div>
+
+    </div>
+  </main>
+
 </body>
 
 </html>
